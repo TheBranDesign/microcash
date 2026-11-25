@@ -18,10 +18,10 @@ export const OnboardingIllustration: React.FC<{ slide: 0 | 1 | 2 }> = ({ slide }
         </defs>
         <rect x="64" y="72" width="32" height="22" rx="5" fill="white" fillOpacity="0.28" />
         <circle cx="184" cy="82" r="12" fill="white" fillOpacity="0.22" />
-        <text x="64" y="126" fill="white" fontSize="22" fontWeight="800" fontFamily="Plus Jakarta Sans, sans-serif">
+        <text x="64" y="126" fill="white" fontSize="20" fontWeight="800" fontFamily="Plus Jakarta Sans, sans-serif">
           $5 – $75
         </text>
-        <text x="150" y="125" fill="#CCFBF1" fontSize="10" fontWeight="700" fontFamily="Plus Jakarta Sans, sans-serif">
+        <text x="158" y="125" fill="#CCFBF1" fontSize="10" fontWeight="700" fontFamily="Plus Jakarta Sans, sans-serif">
           GLOBAL
         </text>
         {/* Floating badge */}

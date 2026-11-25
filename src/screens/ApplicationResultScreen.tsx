@@ -145,14 +145,14 @@ export const ApplicationResultScreen: React.FC<ApplicationResultScreenProps> = (
                 is undergoing a standard income-affordability review.
               </p>
 
-              <div className="my-5 p-4 rounded-2xl bg-royal-50/70 border border-royal-100 text-left space-y-2">
-                <div className="flex justify-between text-xs">
-                  <span className="text-slate-500">Application Status</span>
-                  <span className="font-bold text-royal-700">Under Review (Demo)</span>
+              <div className="my-5 p-4 rounded-2xl bg-royal-50/70 border border-royal-100 text-left space-y-2.5">
+                <div className="flex justify-between gap-3 text-xs">
+                  <span className="text-slate-500 shrink-0">Application Status</span>
+                  <span className="font-bold text-royal-700 text-right">Under Review (Demo)</span>
                 </div>
-                <div className="flex justify-between text-xs">
-                  <span className="text-slate-500">Estimated Update</span>
-                  <span className="font-bold text-navy">Within 2–4 hours (Simulated)</span>
+                <div className="flex justify-between gap-3 text-xs">
+                  <span className="text-slate-500 shrink-0">Estimated Update</span>
+                  <span className="font-bold text-navy text-right">Within 2–4 hrs (Demo)</span>
                 </div>
               </div>
 

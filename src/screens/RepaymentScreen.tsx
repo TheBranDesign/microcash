@@ -52,7 +52,7 @@ export const RepaymentScreen: React.FC<RepaymentScreenProps> = ({
   };
 
   return (
-    <div className="px-4 pt-3 pb-6 space-y-4 bg-gradient-to-b from-[#F8FBFF] to-[#FFFFFF]">
+    <div className="px-4 pt-3 pb-10 space-y-4 bg-gradient-to-b from-[#F8FBFF] to-[#FFFFFF]">
       <header>
         <span className="text-[11px] font-bold uppercase tracking-wider text-royal-600">
           Simulated Repayment

@@ -240,14 +240,14 @@ export function App() {
 
   return (
     <MobileFrame currentScreen={state.currentScreen} onNavigate={navigate}>
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="popLayout">
         <motion.div
           key={state.currentScreen}
-          initial={{ opacity: 0, y: 8 }}
+          initial={{ opacity: 0.4, y: 4 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -6 }}
-          transition={{ duration: 0.2, ease: 'easeOut' }}
-          className="min-h-full"
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.14, ease: 'easeOut' }}
+          className="min-h-full h-full"
         >
           {renderScreen()}
         </motion.div>

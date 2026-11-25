@@ -16,7 +16,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onContinue }) => {
   }, [onContinue]);
 
   return (
-    <div className="min-h-full flex flex-col justify-between px-6 py-8 bg-gradient-to-b from-[#EFF6FF] via-[#F8FBFF] to-[#FFFFFF] relative overflow-hidden">
+    <div className="min-h-full h-full flex flex-col justify-between px-6 py-8 bg-gradient-to-b from-[#DBEAFE]/70 via-[#EFF6FF] to-[#F8FBFF] relative overflow-hidden">
       {/* Decorative soft sky-blue orbs */}
       <div className="absolute -top-20 -right-16 w-64 h-64 rounded-full bg-turquoise-100/60 blur-3xl pointer-events-none" />
       <div className="absolute -bottom-24 -left-16 w-72 h-72 rounded-full bg-royal-100/70 blur-3xl pointer-events-none" />
